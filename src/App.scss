@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
+*{
+  margin:0%;
+  padding:0%;
+  font-family: "Roboto" sans-serif;
+}
+a,
+h2 {
+  color: white;
+  &:hover{
+    color:rgb(201, 6, 6);
+  }
+}
+a {
+  text-decoration: none;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  height:100px;
+  background-color: black;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding:1rem;
+  >img{
+    height:100%;
+  }
+  >div{
+   width: 100%;
+   margin-left: 4vmax;
+   >a{
+    margin: 2vmax;
+    font-size: 1.3rem;
+    font-weight: 300;
+   }
+
+  }
+  >svg{
+    color:white;
+    font-size: 2rem;
+    cursor:pointer;
+    &:hover{
+      color:rgb(201, 6, 6);
+    }
+  }
+
+}
